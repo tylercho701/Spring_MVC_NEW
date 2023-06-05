@@ -1,0 +1,27 @@
+
+	pom.xml
+	
+		- 라이브러리 설정하기
+			-servlet-api
+			-jsp-api
+			-jstl
+			-spring Web MVC
+			
+			
+		xml 파일로 setting하기
+			-WEB-INF > web.xml 생성 > tomcat의 web.xml 일부 발췌/복붙
+			-WEB-INF > config / servlet-context.xml 생성
+			-WEB-INF > config / root-context.xml 생성
+			
+			
+		WEB-INF 하위 폴더로 views 생성
+			-
+			
+			
+			
+			
+			
+			
+			
+			
+			

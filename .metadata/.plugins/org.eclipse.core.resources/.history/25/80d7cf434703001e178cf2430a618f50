@@ -1,0 +1,8 @@
+package kr.co.tjoeun.config;
+
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+//	Spring MVC project에 관련된 설정을 하는 클래스
+public class ServletAppContext implements WebMvcConfigurer{
+	
+}

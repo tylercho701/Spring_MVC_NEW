@@ -1,0 +1,37 @@
+
+	pom.xml
+	
+		- 라이브러리 설정하기
+			-servlet-api
+			-jsp-api
+			-jstl
+			-spring Web MVC
+			
+			
+		xml 파일로 setting하기
+			-WEB-INF > web.xml 생성 > tomcat의 web.xml 일부 발췌/복붙
+			-WEB-INF > config / servlet-context.xml 생성
+			-WEB-INF > config / root-context.xml 생성
+			
+			
+		WEB-INF 하위 폴더로 views 생성
+			-index.jsp 생성
+				ㄴ servlet-context에서 pre/suffix 설정
+					(prefix = "/WEB-INF/views/"
+					 suffix = ".jsp")
+				ㄴ index의 경로 설정이며, return 시 "index" 만 입력해도 
+					접두/미사 인식함
+		
+		정적 파일 경로 지정
+			-HTML에서 사용하는 CSS, image, sound, js 등이 해당함
+				ㄴ servlet-context에서 resources로 설정
+					(mapping = "/**"
+					 location = "/resources/")
+			
+			
+			
+			
+			
+			
+			
+			

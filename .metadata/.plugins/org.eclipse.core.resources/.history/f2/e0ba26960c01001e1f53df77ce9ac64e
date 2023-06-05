@@ -1,0 +1,15 @@
+20230602
+
+	MVC	:	MODEL - VIEW - CONTROLLER
+	
+	Model	:	Application business Logic 처리 + DB 연동 작업
+	
+	View
+	
+	Controller	:	view와 model간의 interface 역할을 함
+					view 계층에서 요청을 받고 필요한 유효성 검사를 포함해서 처리함
+					
+	요청은 data 처리를 위해 model 계층으로 추가되어서 전송하고,
+	처리가 되면 data는 controller로 다시 전송된 후 view에 표시됨
+	
+	

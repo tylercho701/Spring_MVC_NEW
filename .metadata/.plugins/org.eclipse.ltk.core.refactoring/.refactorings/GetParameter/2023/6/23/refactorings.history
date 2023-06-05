@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;result.jsp&apos; to &apos;views&apos;&#x0D;&#x0A;- Original project: &apos;GetParameter&apos;&#x0D;&#x0A;- Destination element: &apos;views&apos;&#x0D;&#x0A;- Original element: &apos;result.jsp&apos;" description="Copy file" element1="WebContent/WEB-INF/views/result.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1685946196135" target="/GetParameter/WebContent/WEB-INF/views" units="0" version="1.0"/>
+</session>

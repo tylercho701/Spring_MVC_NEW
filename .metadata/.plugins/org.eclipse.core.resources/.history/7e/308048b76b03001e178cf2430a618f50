@@ -1,0 +1,9 @@
+
+
+parameter 추출하기
+
+	-HttpServletRequest 사용
+		ㄴ	Spring MVC는 필요한 객체나 data를 주입 받아서 사용
+		ㄴ	객체를 주입(Injection) 받는다는 의미는
+			> 필요한 클래스의 객체를 Spring Framework가 자동으로 생성해서
+			필요한 곳에 할당까지 자동으로 해줌
