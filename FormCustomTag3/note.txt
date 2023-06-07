@@ -1,0 +1,29 @@
+
+
+	form custom tag 의	select, checkbox, radio
+	
+		<form:select>
+			-	select 태그를 생성함
+				@	path	:	<form:form> 태그의 modelAttribute 속성에 의해 추출된
+					(3가지 역할)	model 값(HttpServletRequest 객체에 저장된 객체)의 
+									멤버 변수를 추출해서 (input 태그로 변환된)value 속성에 주입(할당)함
+									id 속성과 name 속성의 역할을 함
+									ㄴ	path 속성에 할단된 값은 
+										일반 input 태그의 id 속성과 name 속성에 할당됨
+					
+				
+		<form:option>
+			-	<form:option>	:	select 태그의 하위 태그 한개를 생성함
+			-	<form:options>	:	select 태그의 하위 태그 여러개를 생성함
+			-	<items:option>	:	태그들을 생성할 때 필요한 data가 담긴 list 혹은 배열
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										

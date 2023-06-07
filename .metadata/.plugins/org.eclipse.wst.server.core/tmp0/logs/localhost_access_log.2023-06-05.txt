@@ -145,3 +145,7 @@
 0:0:0:0:0:0:0:1 - - [05/Jun/2023:17:06:54 +0900] "GET /RequestMethod/test6_get_and_post HTTP/1.1" 200 171
 0:0:0:0:0:0:0:1 - - [05/Jun/2023:17:07:30 +0900] "GET /RequestMethod/test5 HTTP/1.1" 405 801
 0:0:0:0:0:0:0:1 - - [05/Jun/2023:17:07:31 +0900] "POST /RequestMethod/test5 HTTP/1.1" 200 163
+127.0.0.1 - - [05/Jun/2023:17:08:29 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [05/Jun/2023:17:08:30 +0900] "GET /RequestMethod/ HTTP/1.1" 200 873
+0:0:0:0:0:0:0:1 - - [05/Jun/2023:17:08:30 +0900] "POST /RequestMethod/test6 HTTP/1.1" 200 171
+0:0:0:0:0:0:0:1 - - [05/Jun/2023:17:08:33 +0900] "GET /RequestMethod/test6 HTTP/1.1" 200 171
