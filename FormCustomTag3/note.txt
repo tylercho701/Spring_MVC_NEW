@@ -12,15 +12,27 @@
 										일반 input 태그의 id 속성과 name 속성에 할당됨
 					
 				
-		<form:option>
-			-	<form:option>	:	select 태그의 하위 태그 한개를 생성함
-			-	<form:options>	:	select 태그의 하위 태그 여러개를 생성함
-			-	<items:option>	:	태그들을 생성할 때 필요한 data가 담긴 list 혹은 배열
+			ㄴ	<form:option>
+				-	<form:option>	:	select 태그의 하위 태그 한개를 생성함
+				-	<form:options>	:	select 태그의 하위 태그 여러개를 생성함
+				-	items			:	태그들을 생성할 때 필요한 data가 담긴 list 혹은 배열
+											
 										
 										
-										
-										
-										
+			ㄴ	<form:checkbox>	/	<form:checkboxes>
+				-	<form:checkbox>		:	checkbox 하나 생성
+				-	<form:checkboxes>	:	checkbox 여러개 생성
+				-	items	:	checkbox들을 생성하기 위해 필요한 정보가 저장된 list 혹은 배열
+				
+					
+			ㄴ	<form:radiobutton>	/	<form:radiobuttons>
+				-	<form:radiobutton>	:	radiobutton 하나 생성
+				-	<form:radiobuttons>	:	radiobutton 여러개 생성
+				-	items	:	radiobutton들을 생성하기 위해 필요한 정보가 저장된 list 혹은 배열
+				
+					
+					
+					
 										
 										
 										

@@ -1,0 +1,27 @@
+RequestScopeBean 프로젝트에서는 java 방식으로 설정함
+RequestScopeBeanXML 프로젝트에서는 xml 방식으로 설정함
+
+
+	Bean Injection	:	빈 주입
+		-	@Autowired 어노테이션을 사용해서 Bean을 자동으로 주입 받기
+			ㄴ	Spring Core에 prototype, singleton이 있고
+				Spring MVC에서 request, session, application이 추가됨
+				
+	RequestScope
+		-	Bean을 정의할 떄 request scope로 정의하면 요청(request)이 발생할 때마다
+			Bean 객체가 생성되어서 자동으로 주입됨
+			
+		-	요청 발생 시 Bean에 주입만 되고 request scope에 저장되지는 않음
+			
+		-	xml로 설정해서 byName으로 주입받을 때만 request scope에 자동으로 저장됨
+		
+		-	Java 방식으로 설정할 때는 @RequestScope 어노테이션을 사용함
+										ㄴ	RequestScope에 자동으로 저장 됨(RootAppContext.java에서 설정함)
+										
+		-	xml 방식으로 Bean을 정의할 때, scope="request"로 설정함
+		
+		
+		
+		
+		
+		

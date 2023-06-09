@@ -2,6 +2,16 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="RequestScopeBeanXML"/>
+			<item value="RequestScopeBean"/>
+			<item value="RequestScope"/>
+			<item value="RedirectForward"/>
+			<item value="FormCustomTag3"/>
+			<item value="FormCustomTag2"/>
+			<item value="FormCustomTag"/>
+			<item value="CommandObject"/>
+			<item value="ViewResolver"/>
+			<item value="getObjectParameter"/>
 			<item value="GetParameter"/>
 			<item value="URLMapping"/>
 			<item value="SpringMVCJava"/>
@@ -11,6 +21,16 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="RequestScopeBeanXML"/>
+			<item value="RequestScopeBean"/>
+			<item value="RequestScope"/>
+			<item value="RedirectForward"/>
+			<item value="FormCustomTag3"/>
+			<item value="FormCustomTag2"/>
+			<item value="FormCustomTag"/>
+			<item value="CommandObject"/>
+			<item value="ViewResolver"/>
+			<item value="getObjectParameter"/>
 			<item value="GetParameter"/>
 			<item value="URLMapping"/>
 			<item value="SpringMVCJava"/>
