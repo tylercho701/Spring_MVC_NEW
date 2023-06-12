@@ -1,9 +1,0 @@
-package kr.co.tjoeun.config;
-
-import org.springframework.context.annotation.Configuration;
-
-//	상속 없음 : project 사용 시
-@Configuration
-public class RootAppContext {
-	
-}

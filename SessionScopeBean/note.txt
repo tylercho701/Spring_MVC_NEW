@@ -1,0 +1,10 @@
+
+
+	Session Scope
+		-	Bean을 정의할 때, session scope로 정의하면
+			browser가 server에 최초로 요청(request)을 보낼 때
+			bean 객체가 주입(=할당)됨
+			ㄴ	주입(=할당)만 이루어지며, session 영역에 저장되지는 않음
+			
+		-	Java 설정 방식에서는 @SessionScope 어노테이션 사용
+			Xml 설정 방식에서는 bean을 정의할 때 scope="session"으로 설정함
