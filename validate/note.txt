@@ -1,0 +1,19 @@
+
+
+	Validate(유효성 검사)
+	-	Spring MVC 로 처리함
+		Spring MVC는 JSR-303 규격의 유효성 검사 library를 사용함
+		
+		Bean에 data가 입력될 때 어떤 검사를 할 것인지 Annotation으로 지정함
+		ㄴ	해당 Annotation의 조건에 맞지 않으면 개발자에서 입력값에 오류가 있다는 정보를 전달함
+		
+			pom.xml에 dependency 추가
+			ㄴ	mvnrepository.com에서 'Bean Validation API' 검색
+			ㄴ	mvnrepository.com에서 'Hibernate Validator Enginer' 검색
+			
+			Bean에 Annotation 설정
+			ㄴ	@Size(min=2, max=10)
+				private String str1;
+				
+			ㄴ	@Size(max=100)
+				private String str2;	

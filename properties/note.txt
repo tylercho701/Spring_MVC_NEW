@@ -1,0 +1,11 @@
+
+
+	Properties
+	-	Application 을 개발할 때 프로그램 실행 중 변하면 안되는 값들을
+		properties 파일에 작성하고 관리함
+		
+		
+	-	@propertySource		:사용할 properties 파일 하나 지정
+		@propertySources	:사용할 properties 파일 여러개 지정(배열 형태로)
+		ㄴ	@propertySources({@propertySource(properties 파일 경로), 
+							  @propertySource(properties 파일 경로)}
