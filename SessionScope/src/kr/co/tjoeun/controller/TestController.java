@@ -24,10 +24,11 @@ public class TestController {
 	}
 	
 	@GetMapping("/result1")
-	public String result1(HttpServletRequest request) {
+	//	public String result1(HttpServletRequest request) {
+	public String result1(HttpSession session) {
 		
 		//	HttpSession 객체 생성하기
-		HttpSession session = request.getSession();
+		//	HttpSession session = request.getSession();
 		
 		//	Session 영역에 data 가져오기
 		String data1 = (String)session.getAttribute("data1");
