@@ -36,7 +36,7 @@ public class TestController {
 	@InitBinder
 	protected void initBinder(WebDataBinder binder) {
 		TestBean1Validator validator1 = new TestBean1Validator();
-		binder.setValidator(validator1);
+		binder.addValidators(validator1);
 	}
 	
 }

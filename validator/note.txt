@@ -9,13 +9,12 @@
 		
 	-	Validator를 Controller에 등록
 		ㄴ	WebDataBinder 객체의
-			ㄴ	setValidator()메소드:	사용할 validator가 하나인 경우
-			ㄴ	setValidators()메소드:	사용할 validator가 여러개인 경우
+			ㄴ	addValidators() 메소드
 		
 		ㄴ	@InitBinder
 			protected void initBinder(WebDataBinder binder) {
 				TestBean1Validator validator1 = new TestBean1Validator();
-				binder.setValidator(validator1);
+				binder.addValidators(validator1);
 			}
 			
 	-	ValidationUtils 클래스의
