@@ -1,0 +1,40 @@
+
+
+	사용자 정의 Validator
+	-	Validator 인터페이스 implements 하기
+		ㄴ	supports() 메소드:	유효성 검사할 data를 가지고 있는 객체가
+							유효성 검사가 가능한지 확인함
+							
+		ㄴ	validate() 메소드:	유효성 검사하는 메소드
+		
+	-	Validator를 Controller에 등록
+		ㄴ	WebDataBinder 객체의
+			ㄴ	setValidator()메소드:	사용할 validator가 하나인 경우
+			ㄴ	setValidators()메소드:	사용할 validator가 여러개인 경우
+		
+		ㄴ	@InitBinder
+			protected void initBinder(WebDataBinder binder) {
+				TestBean1Validator validator1 = new TestBean1Validator();
+				binder.setValidator(validator1);
+			}
+			
+	-	ValidationUtils 클래스의
+		1)	rejectIfEmpty(error객체, "propertyName", "codeName") 메소드
+			ㄴ	값이 비어있는지 확인함(공백도 문자로 인식 O)
+			
+		2)	rejectIfEmptyOrWhitespace(error객체, "propertyName", "codeName") 메소드
+			ㄴ	값이 비어있거나 공백으로만 되어있는지 확인함(공백도 문자로 인식 X)
+			
+		3)	입력값에 문제가 있으면 error 객체에 오류 정보를 제공함
+			오류 메세지는 "codeName.bean객체이름.propertyName"으로 되어있음	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

@@ -1,0 +1,41 @@
+
+
+	JSR303 Annotation은 Bean 객체에 주입되는 값에 대한 유효성 검사를 할 때 제공되는 annotation
+	
+	-	@AssertTrue:	True가 아닌 값이 들어오면 오류 발생(Boolean 타입에만 적용 가능)
+	
+	-	@AssertFalse:	False가 아닌 값이 들어오면 오류 발생(Boolean 타입에만 적용 가능)
+	
+	-	@Max(값):		지정한 값보다 큰 값이 들어오면 오류 발생
+	
+	-	@Min(값):		지정한 값보다 작은 값이 들어오면 오류 발생
+	
+	-	@DecimalMax(value="값", inclusive=true/false):
+						value에 지정한 값보다 작거나 같은 값이 들어와야 함
+						inclusive가 false 이면 지정한 값은 포함하지 않은것임
+						ㄴ	이 경우 지정한 값보다 작은 값이 나와야 함 (기본값 : true)
+	-	@DecimalMin(value="값", inclusive=true/false):
+						value에 지정한 값보다 크거나 같은 값이 들어와야 함
+						inclusive가 true 이면 지정한 값은 포함하지 않은것임
+						ㄴ	이 경우 지정한 값보다 큰 값이 나와야 함 (기본값 : true)
+						
+	-	@Null:			값이 들어오면 오류가 발생함
+	
+	-	@NotNull:		값이 들어오지 않으면 오류가 발생함
+	
+	-	@Digits(integer=정수자릿수, fraction=실수자릿수):
+						지정된 자릿수의 숫자가 아닌 경우 오류가 발생함
+						
+	-	@Size(max=글자수, min=글자수):
+						지정한 글자수보다 짧거나 길면 오류가 발생함
+		
+	-	@Pattern(regexp=정규식):
+						주어진 정규식에 어긋나면 오류가 발생함
+		
+		
+		
+		
+		
+		
+		
+		

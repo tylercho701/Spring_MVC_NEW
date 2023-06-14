@@ -14,6 +14,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @EnableWebMvc
 //	 scan 할 bean들이 모여있는 package 지정하는 Annotation
 @ComponentScan("kr.co.tjoeun/controller")
+@ComponentScan("kr.co.tjoeun.beans")
 public class ServletAppContext implements WebMvcConfigurer{
 	
 	//	controller의 메소드에서 반환하는 문자열의 prefix와 suffix 경로 정보 설정하기
