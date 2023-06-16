@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:beans="http://www.springframework.org/schema/beans"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xsi:schemaLocation="http://www.springframework.org/schema/mvc
+	   					   http://www.springframework.org/schema/mvc/spring-mvc.xsd
+	   					   http://www.springframework.org/schema/beans
+	   					   http://www.springframework.org/schema/beans/spring-beans.xsd
+	   					   http://www.springframework.org/schema/context
+	   					   http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- scan한 package 내부의 class 중
+		 Controller 라는 annotation이 지정된 class 들을
+		 controller로 loading함 -->
+	<annotation-driven />
+		
+	<!-- scan할 bean들이 모여 있는 package 지정 -->
+	<context:component-scan base-package="kr.co.tjoeun.controller" />
+	
+	<!-- Controller 의 method에서 반환하는 문자열의 prefix와 suffix 경로 설정 -->
+	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<beans:property name="prefix" value="/WEB-INF/views/" />
+		<beans:property name="suffix" value=".jsp" />
+	</beans:bean>
+	
+	<!-- 정적 파일 경로 지정 -->
+	<resources mapping="/**" location="/resources/" />
+	
+	<!-- properties 파일의 내용을 사용할 수 있도록 Bean 정의 -->
+	<beans:bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" >
+		<beans:property name="location">
+			<beans:value>/WEB-INF/properties/data.properties</beans:value>
+		</beans:property>
+	</beans:bean>
+	
+	<!-- BasicDataSource 클래스를 Bean으로 정의 -->
+	<beans:bean id='basic_data_source' class='org.apache.commons.dbcp2.BasicDataSource' >
+		<beans:property name='driverClassName' value='oracle.jdbc.OracleDriver' />
+		<beans:property name='url' value='jdbc:oracle:thin:@localhost:1521:xe' />
+		<beans:property name='username' value='system' />
+		<beans:property name='password' value='1234' />
+	</beans:bean>
+
+	<!-- SqlSessionFactoryBean 클래스를 bean으로 정의 -->
+	<beans:bean id='sqlSession' class='org.mybatis.spring.SqlSessionFactoryBean'>
+		<beans:property name='dataSource' ref='basic_data_source' />
+		<beans:property name='mapperLocations' value='/WEB-INF/mapper/*.xml' />
+	</beans:bean>
+	
+	<!-- SqlSessionTemplate 클래스를 Bean으로 정의 -->
+	<beans:bean id='sqlSessionTemplate' class='org.mybatis.spring.SqlSessionTemplate'>
+		<beans:constructor-arg index='0' ref='sqlSession' />
+	</beans:bean>
+
+</beans:beans>

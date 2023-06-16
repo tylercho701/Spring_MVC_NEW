@@ -1,0 +1,19 @@
+
+
+	RestfulAPI
+	-	기본적으로 web application은 응답 결과를 browser가 사용하는 code인
+		html, css, javascript 등으로 생성해서 전달함
+		
+		ㄴ	이 data 들은 browser가 화면을 구성하는 기능을 수행하기 위한 code
+		
+	-	RestfulAPI Server는 응답 결과를 화면을 구성하는 code가 아닌
+		data로 생성해서 client로 전달하는 server
+		ㄴ	web, mobile 등 여러가지 플랫폼으로 data를 전달할 때 주로 사용
+	
+	-	@RestController로 사용함
+	
+	-	Spring MVC에서 Controller를 지정할 때 @Controller 어노테이션을 사용하면
+		return 값으로 설정한 문자열은 View(=*.jsp)의 이름이 됨
+		
+	-	@RestController 어노테이션을 사용하면 return 값 자체를 client의
+		browser로 전달함

@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="RestfulAPI"/>
+			<item value="Mybatis2"/>
+			<item value="Mybatis"/>
 			<item value="validator"/>
 			<item value="JSR_308"/>
 			<item value="JSR_303"/>
@@ -14,13 +17,13 @@
 			<item value="ApplicationScopeXML"/>
 			<item value="ApplicationScopeJava"/>
 			<item value="ApplicationScope"/>
-			<item value="SessionScopeBeanXML"/>
-			<item value="SessionScopeBean"/>
-			<item value="SessionScope"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="RestfulAPI"/>
+			<item value="Mybatis2"/>
+			<item value="Mybatis"/>
 			<item value="validator"/>
 			<item value="JSR_308"/>
 			<item value="JSR_303"/>
@@ -33,9 +36,6 @@
 			<item value="ApplicationScopeXML"/>
 			<item value="ApplicationScopeJava"/>
 			<item value="ApplicationScope"/>
-			<item value="SessionScopeBeanXML"/>
-			<item value="SessionScopeBean"/>
-			<item value="SessionScope"/>
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
