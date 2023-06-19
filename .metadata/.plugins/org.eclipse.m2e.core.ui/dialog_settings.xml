@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="boardProject"/>
+			<item value="exceptionHandling"/>
+			<item value="interceptorXML"/>
+			<item value="interceptor"/>
 			<item value="RestfulAPI"/>
 			<item value="Mybatis2"/>
 			<item value="Mybatis"/>
@@ -13,14 +17,14 @@
 			<item value="messageXML"/>
 			<item value="message"/>
 			<item value="properties"/>
-			<item value="Cookie"/>
-			<item value="ApplicationScopeXML"/>
-			<item value="ApplicationScopeJava"/>
-			<item value="ApplicationScope"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="boardProject"/>
+			<item value="exceptionHandling"/>
+			<item value="interceptorXML"/>
+			<item value="interceptor"/>
 			<item value="RestfulAPI"/>
 			<item value="Mybatis2"/>
 			<item value="Mybatis"/>
@@ -32,10 +36,6 @@
 			<item value="messageXML"/>
 			<item value="message"/>
 			<item value="properties"/>
-			<item value="Cookie"/>
-			<item value="ApplicationScopeXML"/>
-			<item value="ApplicationScopeJava"/>
-			<item value="ApplicationScope"/>
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
