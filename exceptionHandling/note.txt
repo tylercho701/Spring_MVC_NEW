@@ -1,0 +1,22 @@
+
+
+	ExceptionHandling(예외처리)
+	-	Web Application 에서 오류가 발생할 때 보여줄 jsp를 
+		별도로 만들어서 보여줌
+		
+		
+	-	@ExceptionHandler
+		ㄴ	Controller에서 @ExceptionHandler 어노테이션을 사용해서
+			메소드를 정의하면, 오류 발생 시 이 메소드가 자동으로 호출됨
+			ㄴ	client에게 보여줄 jsp를 별도로 만들어서 보여줌
+
+	-	Global Exception Handler
+		ㄴ	@ExceptionHandler는 controller마다 만들어야 하는데,
+			Controller마다 발생할 수 있는 예외들을
+			@ExceptionHandler로 한 번만 정의해서 사용하는 것이 가장 좋음
+			
+			Global Exception Handler를 구현하게 되면
+			Controller에 정의한 Exception Handler서
+			발생한 오류에 대해 정의한 예외 사항이 없는 경우
+			Global Exception Handler로 이동해서 예외처리 하게 됨
+	
