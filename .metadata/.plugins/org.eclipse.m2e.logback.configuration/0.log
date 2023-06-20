@@ -16635,3 +16635,94 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2023-06-20 17:08:51,578 [Worker-327: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3XML\src\main\resources
 2023-06-20 17:08:51,578 [Worker-327: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-06-20 17:08:51,579 [Worker-327: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3XML\src\test\resources
+2023-06-20 17:10:04,215 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-06-20 17:10:09,955 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:09,956 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject2\src\main\resources
+2023-06-20 17:10:09,958 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:09,958 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject2\src\test\resources
+2023-06-20 17:10:10,645 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:10,646 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject2XML\src\main\resources
+2023-06-20 17:10:10,647 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:10,647 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject2XML\src\test\resources
+2023-06-20 17:10:10,768 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:10,772 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3\src\main\resources
+2023-06-20 17:10:10,773 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:10,774 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3\src\test\resources
+2023-06-20 17:10:10,890 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:10,890 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3XML\src\main\resources
+2023-06-20 17:10:10,891 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:10,892 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3XML\src\test\resources
+2023-06-20 17:10:40,114 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-20 17:10:40,472 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: boardProject2:boardProject2:0.0.1-SNAPSHOT @ D:\tyler\00_new\workspace\springnvc\boardProject2\pom.xml.
+2023-06-20 17:10:40,542 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: boardProject3:boardProject3:0.0.1-SNAPSHOT @ D:\tyler\00_new\workspace\springnvc\boardProject3\pom.xml.
+2023-06-20 17:10:40,567 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: boardProject3XML:boardProject3XML:0.0.1-SNAPSHOT @ D:\tyler\00_new\workspace\springnvc\boardProject3XML\pom.xml.
+2023-06-20 17:10:40,590 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: boardProject2XML:boardProject2XML:0.0.1-SNAPSHOT @ D:\tyler\00_new\workspace\springnvc\boardProject2XML\pom.xml.
+2023-06-20 17:10:41,564 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /boardProject2/src
+2023-06-20 17:10:41,564 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /boardProject2/src/test/java because it overlaps with /boardProject2/src
+2023-06-20 17:10:42,004 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /boardProject2XML/src
+2023-06-20 17:10:42,004 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /boardProject2XML/src/test/java because it overlaps with /boardProject2XML/src
+2023-06-20 17:10:42,570 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /boardProject3/src
+2023-06-20 17:10:42,570 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /boardProject3/src/test/java because it overlaps with /boardProject3/src
+2023-06-20 17:10:42,723 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /boardProject3XML/src
+2023-06-20 17:10:42,723 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /boardProject3XML/src/test/java because it overlaps with /boardProject3XML/src
+2023-06-20 17:10:43,023 [Worker-0: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for boardProject2
+2023-06-20 17:10:43,051 [Worker-0: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for boardProject2XML
+2023-06-20 17:10:43,063 [Worker-0: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for boardProject3
+2023-06-20 17:10:43,077 [Worker-0: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for boardProject3XML
+2023-06-20 17:10:43,079 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2023-06-20 17:10:43,617 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:43,620 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject2\src\main\resources
+2023-06-20 17:10:43,623 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:43,623 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject2\src\test\resources
+2023-06-20 17:10:43,624 [Worker-14: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of boardProject2
+2023-06-20 17:10:43,624 [Worker-14: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for boardProject2
+2023-06-20 17:10:43,640 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:43,748 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:43,748 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject2XML\src\main\resources
+2023-06-20 17:10:43,749 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:43,750 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject2XML\src\test\resources
+2023-06-20 17:10:43,750 [Worker-14: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of boardProject2XML
+2023-06-20 17:10:43,750 [Worker-14: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for boardProject2XML
+2023-06-20 17:10:43,752 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:43,912 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:43,913 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3\src\main\resources
+2023-06-20 17:10:43,914 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:43,915 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3\src\test\resources
+2023-06-20 17:10:43,915 [Worker-14: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of boardProject3
+2023-06-20 17:10:43,915 [Worker-14: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for boardProject3
+2023-06-20 17:10:43,919 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:44,489 [Worker-7: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:44,490 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3XML\src\main\resources
+2023-06-20 17:10:44,491 [Worker-7: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:10:44,491 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3XML\src\test\resources
+2023-06-20 17:10:44,491 [Worker-7: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of boardProject3XML
+2023-06-20 17:10:44,491 [Worker-7: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for boardProject3XML
+2023-06-20 17:10:44,493 [Worker-7: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:14:22,230 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:14:22,231 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3XML\src\main\resources
+2023-06-20 17:14:22,231 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:14:22,232 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3XML\src\test\resources
+2023-06-20 17:15:32,656 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:15:32,657 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3XML\src\main\resources
+2023-06-20 17:15:32,678 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:15:32,679 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3XML\src\test\resources
+2023-06-20 17:17:59,554 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:17:59,555 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3XML\src\main\resources
+2023-06-20 17:17:59,556 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:17:59,557 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3XML\src\test\resources
+2023-06-20 17:19:30,632 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:19:30,633 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3XML\src\main\resources
+2023-06-20 17:19:30,634 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:19:30,634 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3XML\src\test\resources
+2023-06-20 17:19:35,364 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:19:35,365 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3XML\src\main\resources
+2023-06-20 17:19:35,365 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:19:35,366 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject3XML\src\test\resources
+2023-06-20 17:20:58,901 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:20:58,902 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject2XML\src\main\resources
+2023-06-20 17:20:58,903 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:20:58,903 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject2XML\src\test\resources
+2023-06-20 17:21:33,411 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:21:33,411 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject2\src\main\resources
+2023-06-20 17:21:33,412 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-20 17:21:33,413 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\tyler\00_new\workspace\springnvc\boardProject2\src\test\resources
