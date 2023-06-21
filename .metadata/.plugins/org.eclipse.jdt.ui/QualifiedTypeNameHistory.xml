@@ -18,7 +18,6 @@
 <fullyQualifiedTypeName name="javax.validation.constraints.NotBlank"/>
 <fullyQualifiedTypeName name="javax.validation.constraints.Email"/>
 <fullyQualifiedTypeName name="javax.validation.Validator"/>
-<fullyQualifiedTypeName name="org.springframework.validation.Validator"/>
 <fullyQualifiedTypeName name="kr.co.tjoeun.beans.TestBean1"/>
 <fullyQualifiedTypeName name="org.springframework.validation.ValidationUtils"/>
 <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
@@ -29,4 +28,8 @@
 <fullyQualifiedTypeName name="org.apache.commons.dbcp2.BasicDataSource"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.HandlerInterceptor"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.validation.Validator"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.annotations.Insert"/>
+<fullyQualifiedTypeName name="kr.co.tjoeun.bean.UserBean"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
 </qualifiedTypeNameHistroy>
