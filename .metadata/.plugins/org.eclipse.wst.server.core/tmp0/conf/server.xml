@@ -160,7 +160,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\tyler\00_new\workspace\springnvc\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\tyler\00_new\workspace\springnvc\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\boardProject6" path="/boardProject6" reloadable="true" source="org.eclipse.jst.jee.server:boardProject6"/><Context docBase="D:\tyler\00_new\workspace\springnvc\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\boardProject6XML" path="/boardProject6XML" reloadable="true" source="org.eclipse.jst.jee.server:boardProject6XML"/></Host>
+      <Context docBase="D:\tyler\00_new\workspace\springnvc\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\tyler\00_new\workspace\springnvc\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\boardProject8XML" path="/boardProject8XML" reloadable="true" source="org.eclipse.jst.jee.server:boardProject8XML"/></Host>
     </Engine>
   </Service>
 </Server>
