@@ -14,7 +14,7 @@ public class BoardDAO {
 	
 	public void addContentInfo(ContentBean writeContentBean) {
 		
-	sqlSessionTemplate.insert("addContentInfo");
+		sqlSessionTemplate.insert("board.addContentInfo", writeContentBean);
 	
 	}
 }

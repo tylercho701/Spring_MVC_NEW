@@ -24,6 +24,7 @@
 				<div class="card-body">
 					<form:form action="${root }board/write_procedure" method="post" modelAttribute="writeContentBean" enctype="multipart/form-data">
 						<div class="form-group">
+							<form:hidden path="content_board_idx"/>
 							<form:label path="content_subject">제목</form:label>
 							<form:input path="content_subject" class="form-control"/>
 							<form:errors path="content_subject" style="color:red;"/>

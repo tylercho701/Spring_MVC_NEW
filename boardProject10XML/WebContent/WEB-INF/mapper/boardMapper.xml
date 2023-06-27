@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="board">
+	<insert id="addContentInfo" parameterType="kr.co.tjoeun.bean.ContentBean">
+		<selectKey keyProperty="content_idx" resultType="java.lang.Integer" order="BEFORE">
+			<![CDATA[
+				select CONTENT_SEQ.nextval from DUAL
+			]]>
+		</selectKey>
+		<![CDATA[
+			insert into content_table values (#{content_idx}, #{content_subject}, #{content_text}, #{content_file, jdbcType=VARCHAR}, #{content_writer_idx}, #{content_board_idx}, sysdate)
+		]]>
+	</insert>
+	<select id="getBoardInfoName" parameterType="java.lang.Integer" resultType="java.lang.String">
+		<![CDATA[
+			select board_info_name from board_info_table where board_info_idx = #{board_info_idx}
+		]]>
+	</select>
+	<select id="getContentList" parameterType="java.lang.Integer" resultType="kr.co.tjoeun.bean.ContentBean">
+		<![CDATA[
+			select c.content_idx, c.content_subject, u.user_name as content_writer_name, to_char(c.content_date, 'YYYY-MM-DD') as content_date from content_table c inner join user_table u on c.content_writer_idx = u.user_idx where c.content_board_idx = #{board_info_idx} order by c.content_idx desc
+		]]>
+	</select>
+	<select id="getContentInfo" parameterType="java.lang.Integer" resultType="kr.co.tjoeun.bean.ContentBean">
+		select u.user_name as content_writer_name, to_char(c.content_date, 'YYYY-MM-DD') as content_date, c.content_subject, c.content_text, c.content_file, c.content_writer_idx from content_table c inner join user_table u on u.user_idx = c.content_writer_idx where content_idx = #{content_idx}
+	</select>
+</mapper>

@@ -1,5 +1,6 @@
 
 
-	BoardPorject7
-	
-	-	회원 정보 수정 처리 완료
+	 boardproject8
+ 
+	    게시글 작성 및 저장
+	    파일 업로드 - StandardServletMultipartResolver 사용   
