@@ -3,5 +3,5 @@
 <c:url var="root" value="/" />
 <script>
 	alert('게시글이 삭제 되었습니다.');
-	location.href = "${root}board/main";
+	location.href = "${root}board/main?board_info_idx=${board_info_idx}";
 </script>

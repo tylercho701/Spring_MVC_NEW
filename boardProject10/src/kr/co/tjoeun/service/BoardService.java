@@ -95,17 +95,18 @@ public class BoardService {
 		MultipartFile uploadFile =  modifyContentBean.getUpload_file();
 		
 		if(uploadFile.getSize() > 0) {	
-			// 파일 이름
+
 			String fileName = saveUploadFile(uploadFile);
-			//	System.out.println("fileName : " + fileName);
 			modifyContentBean.setContent_file(fileName);
-		} else {
-			ContentBean tmpModifyContentBean = boardDAO.getContentInfo(modifyContentBean.getContent_idx());
 			
-			modifyContentBean.setContent_file(tmpModifyContentBean.getContent_file());
 		}
 		
 		boardDAO.modifyContentInfo(modifyContentBean);
+	}
+	
+	public void deleteContentInfo(int content_idx) {
+		
+		boardDAO.deleteContentInfo(content_idx);
 	}
 	
 } // Service Class

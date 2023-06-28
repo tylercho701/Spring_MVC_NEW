@@ -2,6 +2,7 @@ package kr.co.tjoeun.mapper;
 
 import java.util.ArrayList;
 
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.SelectKey;
@@ -44,6 +45,9 @@ public interface BoardMapper {
 	@Select("select u.user_name as content_writer_name, to_char(c.content_date, 'YYYY-MM-DD') as content_date, c.content_subject, c.content_text, c.content_file, c.content_writer_idx from content_table c inner join user_table u on u.user_idx = c.content_writer_idx where content_idx = #{content_idx}")
 	ContentBean getContentInfo(int content_idx);
 	
-	@Update("update content_table set content_subject = #{content_subject}, content_text = #{content_text}, content_file = #{content_file, jdbcType=VARCHAR} where 1=1 and content_idx = #{content_idx}")
+	@Update("update content_table set content_subject = #{content_subject}, content_text = #{content_text}, content_file = #{content_file, jdbcType=VARCHAR} where content_idx = #{content_idx}")
 	void modifyContentInfo(ContentBean modifyContentBean);
+	
+	@Delete("delete from content_table where content_idx = #{content_idx}")
+	void deleteContentInfo(int content_idx);
 }

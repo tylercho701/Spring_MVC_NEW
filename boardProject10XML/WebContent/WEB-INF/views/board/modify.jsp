@@ -35,7 +35,7 @@
 						</div>
 						<div class="form-group">
 							<form:label path="content_subject">제목</form:label>
-							<form:input path="content_subject" class="form-control"/>
+							<form:input path="content_subject" class="form-control" />
 							<form:errors path="content_subject" style="color:red;"/>
 						</div>
 						<div class="form-group">
@@ -46,14 +46,15 @@
 						<div class="form-group">
 							<form:label path="upload_file">첨부 이미지</form:label>
 								<c:if test="${modifyContentBean.content_file != null }">
-									<img src="${root }upload/${modifyContentBean.content_file }" width="100%"/>	
+									<img src="${root }upload/${modifyContentBean.content_file }" width="100%"/>
+									<form:hidden path="content_file" />
 									<form:input path="upload_file" type="file" class="form-control" accept="image/*"/>
 								</c:if>					
 						</div>
 						<div class="form-group">
 							<div class="text-right">
 								<form:button class="btn btn-primary">수정완료</form:button>
-								<a href="javascript:history.go(-2)" class="btn btn-info">취소</a>
+								<a href="javascript:history.go(-1)" class="btn btn-info">취소</a>
 							</div>
 						</div>
 					</form:form>
